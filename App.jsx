@@ -1,16 +1,3 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Login from './pages/Login';
-import Register from './pages/Register';
-
 export default function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
-      </Routes>
-    </BrowserRouter>
-  );
+  return <h1 style={{ color: 'white', textAlign: 'center', marginTop: '50px' }}>Stories by Simo is live!</h1>;
 }
