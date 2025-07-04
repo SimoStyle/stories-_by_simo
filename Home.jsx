@@ -1,3 +1,9 @@
+import React from 'react';
+
 export default function Home() {
-  return <h1>Welcome to Stories by Simo</h1>;
+  return React.createElement(
+    'h1',
+    { style: { color: 'white', textAlign: 'center', marginTop: '50px' } },
+    'Welcome to Stories by Simo'
+  );
 }
